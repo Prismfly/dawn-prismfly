@@ -114,13 +114,16 @@ ol.breadcrumb {
   .extra-bread {
     display: none;
   }
-  
+  .mobile_breadcrumb{display: none;}
   @media (max-width: 750px) {
     ol.breadcrumb {
       margin: 0px !important;
     }
   }
-  
+  @media (max-width: 550px) {
+    .desk_breadcrumb{display: none;}
+    .mobile_breadcrumb{display: block;}
+  }
   @media (max-width: 750px) {
     .breadcrumb__item a, .breadcrumb__item span {
       font-size: 8px;
