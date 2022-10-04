@@ -23,14 +23,14 @@
         {{ content_for_logo }}
       </div>
     </header>
-
+     <div class="mobile_breadcrumb">{{ breadcrumb }}</div>
     {{ order_summary_toggle }}
     <div class="content" data-content>
       <div class="wrap">
         <div class="main">
           <header class="main__header" role="banner">
             {{ content_for_logo }}
-            {{ breadcrumb }}
+            <div class="desk_breadcrumb">{{ breadcrumb }}</div>
             {{ alternative_payment_methods }}
           </header>
           <main class="main__content" role="main">
