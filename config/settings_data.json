@@ -138,7 +138,8 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
@@ -212,6 +213,17 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      }
+    },
+    "blocks": {
+      "1119079220096577164": {
+        "type": "shopify:\/\/apps\/loyaltylion\/blocks\/embed-sdk\/6f172e67-4106-4ac0-89c5-b32a069b3101",
+        "disabled": false,
+        "settings": {
+          "disableBundledCSS": false,
+          "disableBundledFonts": false,
+          "useClassIsolator": false
         }
       }
     }
@@ -356,7 +368,8 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "header": {
           "type": "header",
